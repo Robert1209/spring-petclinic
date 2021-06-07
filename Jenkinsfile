@@ -7,7 +7,7 @@ pipeline {
             sh 'mvn package'
             script {
                withSonarQubeEnv() {
-                  sh 'mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.6.0.1398:sonar'
+                  sh 'mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.7.0.1746:sonar'
                }
 
                docker.build("spring-petclinic:${env.BUILD_ID}")

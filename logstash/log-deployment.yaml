@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: log-deployment
+  labels:
+    app: logstash
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: logstash
+  template:
+    metadata:
+      labels:
+        app: logstash
+    spec:
+      containers:
+      - name: logstash
+        image: roberttgtu/sp-log-csv:2.0.0
+        resources:
+          limits:
+            memory: 1024Mi
+      
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: logstash-service
+  labels:
+    app: logstash
+spec:
+  type: NodePort
+  ports:
+  - port: 4560
+    targetPort: 4560
+    protocol: TCP
+  selector:
+    app: logstash

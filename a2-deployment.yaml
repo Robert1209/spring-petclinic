@@ -1,0 +1,77 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rob-pc-deployment1
+  labels:
+    app: rob-petclinic1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: rob-petclinic1
+  template:
+    metadata:
+      labels:
+        app: rob-petclinic1
+    spec:
+      containers:
+      - name: petclinic
+        image: roberttgtu/sp-log:2.0.0
+        resources:
+          limits:
+            memory: 1024Mi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: rob-pc-service1
+  labels:
+    app: rob-petclinic1
+spec:
+  spec:
+  type: NodePort
+  ports:
+  - port: 8080
+    targetPort: 8080
+    protocol: TCP
+  selector:
+    app: rob-petclinic1
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rob-pc-deployment2
+  labels:
+    app: rob-petclinic2
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: rob-petclinic2
+  template:
+    metadata:
+      labels:
+        app: rob-petclinic2
+    spec:
+      containers:
+      - name: petclinic
+        image: roberttgtu/sp-log:2.0.0
+        resources:
+          limits:
+            memory: 1024Mi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: rob-pc-service2
+  labels:
+    app: rob-petclinic2
+spec:
+  spec:
+  type: NodePort
+  ports:
+  - port: 8080
+    targetPort: 8080
+    protocol: TCP
+  selector:
+    app: rob-petclinic2

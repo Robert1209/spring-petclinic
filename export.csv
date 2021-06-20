@@ -1,0 +1,104 @@
+background-preinit,INFO,20000,2021-06-20T19:38:07.038Z,gateway,HV000001: Hibernate Validator 6.1.7.Final
+main,INFO,20000,2021-06-20T19:38:07.579Z,gateway,Starting PetClinicApplication v2.4.5 using Java 1.8.0_171 on rob-pc-deployment2-6c75458d69-v925f with PID 1 (/app.jar started by root in /)
+main,INFO,20000,2021-06-20T19:38:07.638Z,gateway,"No active profile set, falling back to default profiles: default"
+main,INFO,20000,2021-06-20T19:38:10.367Z,gateway,Starting PetClinicApplication v2.4.5 using Java 1.8.0_171 on rob-pc-deployment1-7dd84f79db-n5jb9 with PID 1 (/app.jar started by root in /)
+main,INFO,20000,2021-06-20T19:38:10.378Z,gateway,"No active profile set, falling back to default profiles: default"
+background-preinit,INFO,20000,2021-06-20T19:38:10.378Z,gateway,HV000001: Hibernate Validator 6.1.7.Final
+main,INFO,20000,2021-06-20T19:38:15.716Z,gateway,Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+main,INFO,20000,2021-06-20T19:38:15.926Z,gateway,Finished Spring Data repository scanning in 193 ms. Found 4 JPA repository interfaces.
+main,INFO,20000,2021-06-20T19:38:17.858Z,gateway,Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+main,INFO,20000,2021-06-20T19:38:18.122Z,gateway,Finished Spring Data repository scanning in 196 ms. Found 4 JPA repository interfaces.
+main,INFO,20000,2021-06-20T19:38:21.360Z,gateway,Tomcat initialized with port(s): 8080 (http)
+main,INFO,20000,2021-06-20T19:38:21.455Z,gateway,"Initializing ProtocolHandler [""http-nio-8080""]"
+main,INFO,20000,2021-06-20T19:38:21.464Z,gateway,Starting service [Tomcat]
+main,INFO,20000,2021-06-20T19:38:21.465Z,gateway,Starting Servlet engine: [Apache Tomcat/9.0.45]
+main,INFO,20000,2021-06-20T19:38:21.815Z,gateway,Initializing Spring embedded WebApplicationContext
+main,INFO,20000,2021-06-20T19:38:21.816Z,gateway,Root WebApplicationContext: initialization completed in 13467 ms
+main,INFO,20000,2021-06-20T19:38:24.035Z,gateway,Tomcat initialized with port(s): 8080 (http)
+main,INFO,20000,2021-06-20T19:38:24.137Z,gateway,"Initializing ProtocolHandler [""http-nio-8080""]"
+main,INFO,20000,2021-06-20T19:38:24.138Z,gateway,Starting service [Tomcat]
+main,INFO,20000,2021-06-20T19:38:24.144Z,gateway,Starting Servlet engine: [Apache Tomcat/9.0.45]
+main,INFO,20000,2021-06-20T19:38:24.547Z,gateway,Initializing Spring embedded WebApplicationContext
+main,INFO,20000,2021-06-20T19:38:24.552Z,gateway,Root WebApplicationContext: initialization completed in 13480 ms
+main,INFO,20000,2021-06-20T19:38:25.145Z,gateway,Cache 'vets' created in EhcacheManager.
+main,INFO,20000,2021-06-20T19:38:25.241Z,gateway,"Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=vets"
+main,INFO,20000,2021-06-20T19:38:25.325Z,gateway,"Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=vets"
+main,INFO,20000,2021-06-20T19:38:25.955Z,gateway,HikariPool-1 - Starting...
+main,INFO,20000,2021-06-20T19:38:27.145Z,gateway,Cache 'vets' created in EhcacheManager.
+main,INFO,20000,2021-06-20T19:38:27.218Z,gateway,"Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=vets"
+main,INFO,20000,2021-06-20T19:38:27.235Z,gateway,"Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=vets"
+main,INFO,20000,2021-06-20T19:38:27.435Z,gateway,HikariPool-1 - Starting...
+main,INFO,20000,2021-06-20T19:38:27.746Z,gateway,HikariPool-1 - Start completed.
+main,INFO,20000,2021-06-20T19:38:28.619Z,gateway,HikariPool-1 - Start completed.
+main,INFO,20000,2021-06-20T19:38:28.859Z,gateway,HHH000204: Processing PersistenceUnitInfo [name: default]
+main,INFO,20000,2021-06-20T19:38:29.648Z,gateway,HHH000204: Processing PersistenceUnitInfo [name: default]
+main,INFO,20000,2021-06-20T19:38:29.732Z,gateway,HHH000412: Hibernate ORM core version 5.4.30.Final
+main,INFO,20000,2021-06-20T19:38:30.060Z,gateway,HHH000412: Hibernate ORM core version 5.4.30.Final
+main,INFO,20000,2021-06-20T19:38:31.128Z,gateway,HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+main,INFO,20000,2021-06-20T19:38:31.176Z,gateway,HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+main,INFO,20000,2021-06-20T19:38:32.120Z,gateway,HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+main,INFO,20000,2021-06-20T19:38:32.362Z,gateway,HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+main,INFO,20000,2021-06-20T19:38:42.642Z,gateway,HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+main,INFO,20000,2021-06-20T19:38:42.750Z,gateway,Initialized JPA EntityManagerFactory for persistence unit 'default'
+main,INFO,20000,2021-06-20T19:38:46.029Z,gateway,HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+main,INFO,20000,2021-06-20T19:38:46.272Z,gateway,Initialized JPA EntityManagerFactory for persistence unit 'default'
+main,INFO,20000,2021-06-20T19:38:49.936Z,gateway,Initializing ExecutorService 'applicationTaskExecutor'
+main,INFO,20000,2021-06-20T19:38:56.494Z,gateway,Exposing 13 endpoint(s) beneath base path '/actuator'
+main,INFO,20000,2021-06-20T19:38:56.804Z,gateway,"Starting ProtocolHandler [""http-nio-8080""]"
+main,INFO,20000,2021-06-20T19:38:57.095Z,gateway,Tomcat started on port(s): 8080 (http) with context path ''
+main,INFO,20000,2021-06-20T19:38:57.194Z,gateway,Started PetClinicApplication in 50.289 seconds (JVM running for 55.934)
+background-preinit,INFO,20000,2021-06-20T19:38:57.803Z,gateway,HV000001: Hibernate Validator 6.1.7.Final
+main,INFO,20000,2021-06-20T19:38:57.913Z,gateway,Starting PetClinicApplication v2.4.5 using Java 1.8.0_171 on rob-pc-deployment2-6c75458d69-v925f with PID 1 (/app.jar started by root in /)
+main,INFO,20000,2021-06-20T19:38:57.918Z,gateway,"No active profile set, falling back to default profiles: default"
+main,INFO,20000,2021-06-20T19:39:01.020Z,gateway,Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+main,INFO,20000,2021-06-20T19:39:01.331Z,gateway,Finished Spring Data repository scanning in 289 ms. Found 4 JPA repository interfaces.
+main,INFO,20000,2021-06-20T19:39:03.900Z,gateway,Tomcat initialized with port(s): 8080 (http)
+main,INFO,20000,2021-06-20T19:39:04.009Z,gateway,"Initializing ProtocolHandler [""http-nio-8080""]"
+main,INFO,20000,2021-06-20T19:39:04.012Z,gateway,Starting service [Tomcat]
+main,INFO,20000,2021-06-20T19:39:04.013Z,gateway,Starting Servlet engine: [Apache Tomcat/9.0.45]
+main,INFO,20000,2021-06-20T19:39:04.338Z,gateway,Initializing Spring embedded WebApplicationContext
+main,INFO,20000,2021-06-20T19:39:04.338Z,gateway,Root WebApplicationContext: initialization completed in 6238 ms
+main,INFO,20000,2021-06-20T19:39:06.106Z,gateway,Cache 'vets' created in EhcacheManager.
+main,INFO,20000,2021-06-20T19:39:06.199Z,gateway,"Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=vets"
+main,INFO,20000,2021-06-20T19:39:06.213Z,gateway,"Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=vets"
+main,INFO,20000,2021-06-20T19:39:07.020Z,gateway,HikariPool-1 - Starting...
+main,INFO,20000,2021-06-20T19:39:09.012Z,gateway,HikariPool-1 - Start completed.
+main,INFO,20000,2021-06-20T19:39:11.123Z,gateway,HHH000204: Processing PersistenceUnitInfo [name: default]
+main,INFO,20000,2021-06-20T19:39:11.933Z,gateway,HHH000412: Hibernate ORM core version 5.4.30.Final
+main,INFO,20000,2021-06-20T19:39:13.545Z,gateway,HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+main,INFO,20000,2021-06-20T19:39:13.945Z,gateway,HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+main,INFO,20000,2021-06-20T19:39:17.276Z,gateway,HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+main,INFO,20000,2021-06-20T19:39:17.295Z,gateway,Initialized JPA EntityManagerFactory for persistence unit 'default'
+background-preinit,INFO,20000,2021-06-20T19:39:20.979Z,gateway,HV000001: Hibernate Validator 6.1.7.Final
+main,INFO,20000,2021-06-20T19:39:21.132Z,gateway,Starting PetClinicApplication v2.4.5 using Java 1.8.0_171 on rob-pc-deployment1-7dd84f79db-n5jb9 with PID 1 (/app.jar started by root in /)
+main,INFO,20000,2021-06-20T19:39:21.135Z,gateway,"No active profile set, falling back to default profiles: default"
+main,INFO,20000,2021-06-20T19:39:24.084Z,gateway,Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+main,INFO,20000,2021-06-20T19:39:24.199Z,gateway,Finished Spring Data repository scanning in 99 ms. Found 4 JPA repository interfaces.
+main,INFO,20000,2021-06-20T19:39:26.125Z,gateway,Tomcat initialized with port(s): 8080 (http)
+main,INFO,20000,2021-06-20T19:39:26.175Z,gateway,"Initializing ProtocolHandler [""http-nio-8080""]"
+main,INFO,20000,2021-06-20T19:39:26.176Z,gateway,Starting service [Tomcat]
+main,INFO,20000,2021-06-20T19:39:26.177Z,gateway,Starting Servlet engine: [Apache Tomcat/9.0.45]
+main,INFO,20000,2021-06-20T19:39:26.299Z,gateway,Initializing Spring embedded WebApplicationContext
+main,INFO,20000,2021-06-20T19:39:26.299Z,gateway,Root WebApplicationContext: initialization completed in 4969 ms
+main,INFO,20000,2021-06-20T19:39:27.433Z,gateway,Cache 'vets' created in EhcacheManager.
+main,INFO,20000,2021-06-20T19:39:27.479Z,gateway,"Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=vets"
+main,INFO,20000,2021-06-20T19:39:27.500Z,gateway,"Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=vets"
+main,INFO,20000,2021-06-20T19:39:27.693Z,gateway,HikariPool-1 - Starting...
+main,INFO,20000,2021-06-20T19:39:28.302Z,gateway,HikariPool-1 - Start completed.
+main,INFO,20000,2021-06-20T19:39:28.882Z,gateway,HHH000204: Processing PersistenceUnitInfo [name: default]
+main,INFO,20000,2021-06-20T19:39:29.138Z,gateway,HHH000412: Hibernate ORM core version 5.4.30.Final
+main,INFO,20000,2021-06-20T19:39:29.788Z,gateway,HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+main,INFO,20000,2021-06-20T19:39:30.116Z,gateway,HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+main,INFO,20000,2021-06-20T19:39:32.234Z,gateway,HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+main,INFO,20000,2021-06-20T19:39:32.284Z,gateway,Initialized JPA EntityManagerFactory for persistence unit 'default'
+background-preinit,INFO,20000,2021-06-20T19:39:37.521Z,gateway,HV000001: Hibernate Validator 6.1.7.Final
+main,INFO,20000,2021-06-20T19:39:37.626Z,gateway,Starting PetClinicApplication v2.4.5 using Java 1.8.0_171 on rob-pc-deployment2-6c75458d69-v925f with PID 1 (/app.jar started by root in /)
+main,INFO,20000,2021-06-20T19:39:37.628Z,gateway,"No active profile set, falling back to default profiles: default"
+main,INFO,20000,2021-06-20T19:39:40.195Z,gateway,Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+main,INFO,20000,2021-06-20T19:39:40.370Z,gateway,Finished Spring Data repository scanning in 160 ms. Found 4 JPA repository interfaces.
+main,INFO,20000,2021-06-20T19:39:42.376Z,gateway,Tomcat initialized with port(s): 8080 (http)
+main,INFO,20000,2021-06-20T19:39:42.397Z,gateway,"Initializing ProtocolHandler [""http-nio-8080""]"
+main,INFO,20000,2021-06-20T19:39:42.398Z,gateway,Starting service [Tomcat]
+main,INFO,20000,2021-06-20T19:39:42.399Z,gateway,Starting Servlet engine: [Apache Tomcat/9.0.45]
+main,INFO,20000,2021-06-20T19:39:42.612Z,gateway,Initializing Spring embedded WebApplicationContext
+main,INFO,20000,2021-06-20T19:39:42.613Z,gateway,Root WebApplicationContext: initialization completed in 4819 ms
